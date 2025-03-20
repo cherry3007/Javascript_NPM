@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#typed-output {
+    display: flex;
+    justify-content: center; /* Центрируем текст */
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ff6a6a, #ffb86c, #50fa7b, #8be9fd, #bd93f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 1s ease-in-out;
+    margin-top: 20vh; /* Чтобы текст был немного ниже */
+}
